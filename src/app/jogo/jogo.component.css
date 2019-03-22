@@ -1,0 +1,32 @@
+#jogo {
+    /* background-color: black; */
+    background-image: url("../../assets/fundo3.jpg");
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-repeat: round;
+    animation: animacaoFundo  100s linear infinite;
+    /* animation-direction: reverse; */
+    /* animation-play-state: paused; */
+}
+
+#nave {
+    position: absolute;
+    left: 50%;
+
+    bottom: 0%;
+    height: 96px;
+    width: 96px;
+    user-select: none;
+}
+
+
+@keyframes animacaoFundo {
+    from { background-position: 0 0;}
+    to { background-position:  0 1000%;}
+}
+
+
